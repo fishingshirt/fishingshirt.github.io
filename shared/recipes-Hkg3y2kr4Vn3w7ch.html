@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Recipe Book</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;line-height:1.6;min-height:100vh}
+.r-header{text-align:center;padding:3rem 1rem 2rem;border-bottom:1px solid #21262d;margin-bottom:2rem}
+.r-header h1{font-size:2rem;color:#e6edf3;font-weight:700}
+.r-header p{color:#8b949e;font-size:.9rem;margin-top:.5rem}
+.r-container{max-width:900px;margin:0 auto;padding:0 1rem 3rem}
+.r-card{border:1px solid #21262d;border-radius:12px;overflow:hidden;margin-bottom:1.5rem;background:#161b22;transition:.2s}
+.r-card:hover{border-color:#30363d}
+.r-card-inner{display:flex;flex-direction:column}
+@media(min-width:640px){.r-card-inner{flex-direction:row}}
+.r-img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+@media(min-width:640px){.r-img{width:280px;min-height:100%;aspect-ratio:auto}}
+.r-img-place{display:flex;align-items:center;justify-content:center;font-size:3rem;background:#21262d;color:#8b949e}
+.r-content{padding:1.25rem;flex:1;min-width:0}
+.r-meta{font-size:.75rem;color:#8b949e;margin-bottom:.25rem}
+.r-title{font-size:1.15rem;font-weight:600;color:#e6edf3;margin-bottom:.5rem}
+.r-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:.75rem}
+.r-tag{font-size:.7rem;padding:2px 8px;border-radius:999px;background:#21262d;color:#8b949e;border:1px solid #30363d}
+.r-desc{color:#8b949e;font-size:.875rem;margin-bottom:.75rem}
+.r-sections{display:flex;flex-direction:column;gap:.75rem}
+@media(min-width:640px){.r-sections{flex-direction:row}}
+.r-sec{flex:1;min-width:0}
+.r-sec h4{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:#8b949e;margin-bottom:.5rem}
+.r-list{margin:0;padding-left:1.25rem;line-height:1.7}
+.r-list li{margin-bottom:.15rem;font-size:.875rem}
+.r-footer{text-align:center;padding:2rem 1rem;color:#484f58;font-size:.75rem;border-top:1px solid #21262d;margin-top:2rem}
+.r-empty{text-align:center;padding:4rem 1rem;color:#8b949e}
+.r-empty-icon{font-size:3rem;margin-bottom:1rem}</style>
+</head>
+<body>
+<div class="r-header">
+  <h1>Recipe Book</h1>
+  <p>4 recipes — shared from a private collection</p>
+</div>
+<div class="r-container"><article class="r-card">
+      <div class="r-card-inner">
+        <div class="r-img r-img-place">🍳</div>
+        <div class="r-content">
+          <div class="r-meta">Built-in</div>
+          <h3 class="r-title">Classic Pancakes</h3>
+          <div class="r-tags"><span class="r-tag">Breakfast</span> <span class="r-tag">⏱ 25 min</span> <span class="r-tag">🍽 4</span></div>
+          <p class="r-desc">Fluffy classic buttermilk pancakes.</p>
+          <div class="r-sections">
+            <div class="r-sec"><h4>Ingredients</h4><ul class="r-list"><li>2 cups flour</li><li>2 eggs</li><li>1 3/4 cups milk</li><li>1/4 cup butter, melted</li><li>2 tbsp sugar</li><li>2 tsp baking powder</li><li>1/2 tsp salt</li></ul></div>
+            <div class="r-sec"><h4>Instructions</h4><ol class="r-list"><li>Mix dry ingredients in a bowl.</li><li>Whisk wet ingredients separately.</li><li>Combine and fold gently.</li><li>Cook on medium heat until golden.</li></ol></div>
+          </div>
+        </div>
+      </div>
+    </article><article class="r-card">
+      <div class="r-card-inner">
+        <div class="r-img r-img-place">🍳</div>
+        <div class="r-content">
+          <div class="r-meta">Built-in</div>
+          <h3 class="r-title">Grilled Chicken Salad</h3>
+          <div class="r-tags"><span class="r-tag">Lunch</span> <span class="r-tag">⏱ 20 min</span> <span class="r-tag">🍽 2</span></div>
+          <p class="r-desc">Simple, healthy mixed greens bowl.</p>
+          <div class="r-sections">
+            <div class="r-sec"><h4>Ingredients</h4><ul class="r-list"><li>2 chicken breasts</li><li>Mixed greens</li><li>Cherry tomatoes</li><li>Cucumber</li><li>Olive oil</li><li>Lemon juice</li><li>Salt &amp; pepper</li></ul></div>
+            <div class="r-sec"><h4>Instructions</h4><ol class="r-list"><li>Season and grill chicken until internal temp 75C.</li><li>Slice and set aside.</li><li>Toss greens and veg with olive oil and lemon.</li><li>Top with sliced chicken.</li></ol></div>
+          </div>
+        </div>
+      </div>
+    </article><article class="r-card">
+      <div class="r-card-inner">
+        <div class="r-img r-img-place">🍳</div>
+        <div class="r-content">
+          <div class="r-meta">Built-in</div>
+          <h3 class="r-title">Chocolate Lava Cake</h3>
+          <div class="r-tags"><span class="r-tag">Dessert</span> <span class="r-tag">⏱ 30 min</span> <span class="r-tag">🍽 2</span></div>
+          <p class="r-desc">Rich molten-centre chocolate cake.</p>
+          <div class="r-sections">
+            <div class="r-sec"><h4>Ingredients</h4><ul class="r-list"><li>100g dark chocolate</li><li>100g butter</li><li>2 eggs</li><li>2 egg yolks</li><li>50g sugar</li><li>30g flour</li></ul></div>
+            <div class="r-sec"><h4>Instructions</h4><ol class="r-list"><li>Melt chocolate and butter together.</li><li>Whisk eggs, yolks and sugar until pale.</li><li>Fold in melted chocolate and flour.</li><li>Bake in greased ramekins 220C for 10 min.</li></ol></div>
+          </div>
+        </div>
+      </div>
+    </article><article class="r-card">
+      <div class="r-card-inner">
+        <div class="r-img r-img-place">🍳</div>
+        <div class="r-content">
+          <div class="r-meta"></div>
+          <h3 class="r-title">tester recipoie</h3>
+          <div class="r-tags"><span class="r-tag">Breakfast</span></div>
+          
+          <div class="r-sections">
+            
+            
+          </div>
+        </div>
+      </div>
+    </article></div>
+<div class="r-footer">Shared Recipe Book &bull; No tracking &bull; No JavaScript</div>
+</body>
+</html>
